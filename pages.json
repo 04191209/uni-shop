@@ -1,0 +1,68 @@
+{
+	"pages": [{
+    "path" : "pages/home/home",
+    "style" :                                                                                    
+   {
+       
+       "enablePullDownRefresh": false
+   }
+  },{
+    "path" : "pages/cate/cate",
+    "style" :                                                                                    
+    {
+        
+        "enablePullDownRefresh": false
+    }  
+  },{
+   "path" : "pages/cart/cart",
+   "style" :                                                                                    
+   {
+       "navigationBarTitleText": "",
+       "enablePullDownRefresh": false
+   }
+  },{
+   "path" : "pages/my/my",
+   "style" :                                                                                    
+   {
+     
+       "enablePullDownRefresh": false
+   }
+
+  }
+    ],
+	"globalStyle": {
+    "navigationBarTextStyle": "white",
+		"navigationBarTitleText": "吉珠校园二手平台",
+    "navigationBarBackgroundColor": "#C00000",
+    "backgroundColor": "#FFFFFF"
+	},
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/tab_icons/cate.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}
